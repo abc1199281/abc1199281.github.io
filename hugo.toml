@@ -59,6 +59,12 @@ icon   = "fa-brands fa-stack-exchange fa-2x"
 weight = 4
 url    = "https://dsp.stackexchange.com/users/41818/po-wei-huang"
 
+[[params.social]]
+name   = "Email"
+icon   = "fa-solid fa-envelope fa-2x"
+weight = 5
+url    = "mailto:abc1199281@gmail.com"
+
 # English
 [languages.en]
 languageName = ":uk:"
