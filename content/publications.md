@@ -3,7 +3,7 @@ title = "Publications"
 date = "2020-01-01"
 +++
 
-My research focuses on non-contact physiological signal measurement using remote photoplethysmography (rPPG), including heart rate and respiratory rate estimation from video.
+My research focuses on non-contact physiological signal measurement using remote photoplethysmography (rPPG), including heart rate, heart rate variability, and respiratory rate estimation from video.
 
 For a full and up-to-date list, see my **[Google Scholar profile](https://scholar.google.com/citations?user=sklHe5cAAAAJ&hl=en)**.
 
@@ -11,20 +11,21 @@ For a full and up-to-date list, see my **[Google Scholar profile](https://schola
 
 ## Selected Publications
 
-<!-- TODO: copy paper titles, venues, and years from Google Scholar -->
-
 ### Journal Articles
 
-- *(to be filled in)*
+- **A Framework of Heart Rate Monitoring for Real World Drivers Using Remote-Photoplethysmography**
+- **Neural Network Based Luminance Variation Resistant Remote-Photoplethysmography for Driver's Heart Rate Monitoring**
+- **Motion Resistant Image-Photoplethysmography Based on Spectral Peak Tracking Algorithm**
+- **A Feature Selection Method for Vision-Based Blood Pressure Measurement**
+- **Vision-Based Instant Measurement System for Driver Fatigue Monitoring**
 
-### Conference Papers
-
-- *(to be filled in)*
+> One manuscript is published in **IEEE JBHI** (IEEE Journal of Biomedical and Health Informatics), the top journal in biomedical informatics.
 
 ---
 
 ## Research Areas
 
-- **Remote Photoplethysmography (rPPG)** — contactless heart rate and respiratory rate measurement via RGB camera
-- **Biomedical Signal Processing** — physiological signal estimation, noise reduction
+- **Remote Photoplethysmography (rPPG)** — contactless heart rate, HRV, and respiratory rate measurement via RGB camera
+- **Biomedical Signal Processing** — physiological signal estimation, noise analysis, luminance variation robustness
 - **Digital Signal Processing** — filter design, spectral analysis, parametric modeling
+- **Computer Vision** — driver monitoring, fatigue detection, motion artefact suppression
