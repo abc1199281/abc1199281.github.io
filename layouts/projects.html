@@ -1,0 +1,90 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">{{ .Title }}</a>
+      </h1>
+    </header>
+
+    {{ $lang := .Site.Language.Lang }}
+
+    {{ $categoryOrder := slice "research" "educational" "devtools" }}
+
+    {{ $categoryLabels := dict
+      "research"    "Research"
+      "educational" "Educational"
+      "devtools"    "Developer Tools"
+    }}
+
+    {{ $categoryLabelsZh := dict
+      "research"    "研究"
+      "educational" "教學"
+      "devtools"    "開發工具"
+    }}
+
+    {{ range $categoryOrder }}
+      {{ $cat := . }}
+      {{ $projects := where $.Site.Data.projects "category" $cat }}
+      {{ if $projects }}
+        <h2>
+          {{ if eq $lang "zh-tw" }}
+            {{ index $categoryLabelsZh $cat }}
+          {{ else }}
+            {{ index $categoryLabels $cat }}
+          {{ end }}
+        </h2>
+
+        {{ range $projects }}
+        <div style="margin-bottom: 2rem; padding: 1.25rem; border: 1px solid var(--color-secondary-text-link, #ccc); border-radius: 4px;">
+          <h3 style="margin-top: 0;">
+            {{ if .github }}
+              <a href="{{ .github }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+            {{ else }}
+              {{ .title }}
+            {{ end }}
+          </h3>
+
+          <p>
+            {{ if eq $lang "zh-tw" }}{{ .description_zh }}{{ else }}{{ .description }}{{ end }}
+          </p>
+
+          {{ if .tags }}
+          <p>
+            {{ range .tags }}
+              <code style="margin-right: 0.4rem;">{{ . }}</code>
+            {{ end }}
+          </p>
+          {{ end }}
+
+          {{ if .highlight }}
+          <p><em>
+            {{ if eq $lang "zh-tw" }}{{ .highlight_zh | default .highlight }}{{ else }}{{ .highlight }}{{ end }}
+          </em></p>
+          {{ end }}
+
+          <p>
+            {{ if .github }}
+              <a href="{{ .github }}" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            {{ end }}
+            {{ if and .github .blog_series }}&ensp;·&ensp;{{ end }}
+            {{ if .blog_series }}
+              <a href="{{ $.Site.BaseURL }}series/{{ .blog_series | urlize }}/">Blog Series →</a>
+            {{ end }}
+            {{ if and (or .github .blog_series) .scholar }}&ensp;·&ensp;{{ end }}
+            {{ if .scholar }}
+              <a href="{{ .scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar →</a>
+            {{ end }}
+          </p>
+        </div>
+        {{ end }}
+
+      {{ end }}
+    {{ end }}
+
+  </article>
+</section>
+{{ end }}

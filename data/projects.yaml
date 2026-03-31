@@ -1,0 +1,59 @@
+- id: rppg-research
+  category: research
+  title: "rPPG Research"
+  description: "Non-contact physiological signal measurement (heart rate, respiratory rate) from video using remote photoplethysmography and computer vision."
+  description_zh: "利用遠端光體積描記術（rPPG）與電腦視覺，從影片中非接觸式地量測心率與呼吸率等生理訊號。"
+  github: ""
+  scholar: "https://scholar.google.com/citations?user=sklHe5cAAAAJ&hl=en"
+  tags: ["rPPG", "Signal Processing", "Computer Vision", "Biomedical"]
+  blog_series: ""
+  highlight: "3rd place @ IEEE CVPR/CVPM2020 · 125 participants"
+  highlight_zh: "IEEE CVPR/CVPM2020 競賽第三名 · 125 名參賽者"
+
+- id: dsp-learning-path
+  category: educational
+  title: "DSP Learning Path"
+  description: "MATLAB experiments bridging DSP theory and practice, following Oppenheim & Schafer's Discrete-Time Signal Processing. Covers sampling, filter design, spectral analysis, and parametric modeling."
+  description_zh: "以 Oppenheim & Schafer《離散時間訊號處理》為主軸，連結 DSP 理論與實作的 MATLAB 實驗集，涵蓋取樣、濾波器設計、頻譜分析與參數化模型。"
+  github: "https://github.com/abc1199281/DSP_lab"
+  scholar: ""
+  tags: ["DSP", "MATLAB", "Signal Processing", "Educational"]
+  blog_series: "DSP Learning Path"
+  highlight: "Ch2–Ch13 · Basic / Middle / Advanced tiers"
+  highlight_zh: "Ch2–Ch13 · 基礎 / 中級 / 進階三個難度層級"
+
+- id: systemc-notes
+  category: educational
+  title: "SystemC Notes"
+  description: "Documentation and notes for SystemC, a C++ class library for hardware design and simulation. Covers system-level modeling concepts with practical examples."
+  description_zh: "SystemC 學習筆記與文件，SystemC 是用於硬體設計與模擬的 C++ 函式庫，涵蓋系統層級建模概念與實作範例。"
+  github: "https://github.com/abc1199281/systemc_notes"
+  scholar: ""
+  tags: ["SystemC", "C++", "Hardware", "EDA"]
+  blog_series: ""
+  highlight: "85 commits · v1.0 released March 2026"
+  highlight_zh: "85 commits · v1.0 於 2026 年 3 月發佈"
+
+- id: cmdmark
+  category: devtools
+  title: "cmdmark"
+  description: "A CLI bookmark manager for terminal commands. Organize frequently-used commands into YAML files, then navigate and execute them interactively."
+  description_zh: "終端機指令的 CLI 書籤管理工具。將常用指令整理至 YAML 設定檔，透過互動式介面快速導覽與執行。"
+  github: "https://github.com/abc1199281/cmdmark"
+  scholar: ""
+  tags: ["Python", "CLI", "Developer Tool"]
+  blog_series: ""
+  highlight: "64 commits · pip install cmdmark"
+  highlight_zh: "64 commits · pip install cmdmark"
+
+- id: repo-lantern
+  category: devtools
+  title: "repo-lantern"
+  description: "AI-powered CLI that analyzes codebases and generates comprehensive documentation. Combines bottom-up file analysis with top-down architecture views, Mermaid diagrams, and multi-language output."
+  description_zh: "AI 驅動的 CLI 工具，分析程式碼庫並自動產生完整文件。結合由下而上的檔案分析與由上而下的架構視角，支援 Mermaid 圖表與多語言輸出（含繁體中文）。"
+  github: "https://github.com/abc1199281/repo-lantern"
+  scholar: ""
+  tags: ["Python", "LangGraph", "AI", "CLI", "Documentation"]
+  blog_series: ""
+  highlight: "109 commits · OpenAI / Ollama / OpenRouter backends"
+  highlight_zh: "109 commits · 支援 OpenAI / Ollama / OpenRouter"

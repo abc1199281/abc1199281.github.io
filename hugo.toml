@@ -1,0 +1,124 @@
+baseURL = "https://abc1199281.github.io/"
+title = "Po-Wei Huang"
+languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableEmoji = true
+
+[module]
+[module.hugoVersion]
+min = "0.124.0"
+
+[pagination]
+pagerSize = 6
+
+[markup]
+[markup.highlight]
+noClasses = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+category = "categories"
+series   = "series"
+tag      = "tags"
+
+[params]
+author      = "Po-Wei Huang"
+description = "Signal processing researcher and software engineer. Writing about DSP, rPPG, and developer tools."
+keywords    = "blog,signal processing,DSP,rPPG,developer,MATLAB,Python"
+info        = ["Signal Processing", "Software Engineer"]
+avatarURL   = "images/avatar.jpg"
+colorScheme = "auto"
+since       = 2020
+dateFormat  = "January 2, 2006"
+
+[[params.social]]
+name   = "GitHub"
+icon   = "fa-brands fa-github fa-2x"
+weight = 1
+url    = "https://github.com/abc1199281"
+
+[[params.social]]
+name   = "LinkedIn"
+icon   = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url    = "https://www.linkedin.com/in/powei-huang-b24061104/"
+
+[[params.social]]
+name   = "Google Scholar"
+icon   = "fa-brands fa-google-scholar fa-2x"
+weight = 3
+url    = "https://scholar.google.com/citations?user=sklHe5cAAAAJ"
+
+[[params.social]]
+name   = "DSP Stack Exchange"
+icon   = "fa-brands fa-stack-exchange fa-2x"
+weight = 4
+url    = "https://dsp.stackexchange.com/users/41818/po-wei-huang"
+
+# English
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name   = "About"
+weight = 1
+url    = "about/"
+
+[[languages.en.menu.main]]
+name   = "Projects"
+weight = 2
+url    = "projects/"
+
+[[languages.en.menu.main]]
+name   = "Publications"
+weight = 3
+url    = "publications/"
+
+[[languages.en.menu.main]]
+name   = "Blog"
+weight = 4
+url    = "posts/"
+
+[[languages.en.menu.main]]
+name   = "Contact"
+weight = 5
+url    = "contact/"
+
+# Traditional Chinese
+[languages.zh-tw]
+languageName = ":taiwan:"
+title        = "黃柏維"
+
+[languages.zh-tw.params]
+author      = "黃柏維"
+info        = ["訊號處理", "軟體工程師"]
+description = "訊號處理研究者與軟體工程師，撰寫 DSP、rPPG 與開發工具相關文章。"
+keywords    = "部落格,訊號處理,DSP,rPPG,開發者,MATLAB,Python"
+
+[[languages.zh-tw.menu.main]]
+name   = "關於"
+weight = 1
+url    = "about/"
+
+[[languages.zh-tw.menu.main]]
+name   = "作品集"
+weight = 2
+url    = "projects/"
+
+[[languages.zh-tw.menu.main]]
+name   = "論文"
+weight = 3
+url    = "publications/"
+
+[[languages.zh-tw.menu.main]]
+name   = "部落格"
+weight = 4
+url    = "posts/"
+
+[[languages.zh-tw.menu.main]]
+name   = "聯絡"
+weight = 5
+url    = "contact/"
