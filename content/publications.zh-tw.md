@@ -1,6 +1,7 @@
 +++
 title = "論文"
 date = "2020-01-01"
+translationKey = "publications"
 +++
 
 我的研究聚焦於利用遠端光體積描記術（rPPG）進行非接觸式生理訊號量測，包含從影片中估測心率、心率變異度（HRV）與呼吸率。

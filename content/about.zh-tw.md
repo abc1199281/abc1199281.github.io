@@ -2,6 +2,7 @@
 title = "關於"
 date = "2020-01-01"
 aliases = ["about"]
+translationKey = "about"
 +++
 
 ## 嗨，我是黃柏維

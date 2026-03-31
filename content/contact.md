@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 date = "2020-01-01"
+translationKey = "contact"
 +++
 
 Feel free to reach out through any of the following channels.

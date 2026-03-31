@@ -1,6 +1,7 @@
 +++
 title = "Publications"
 date = "2020-01-01"
+translationKey = "publications"
 +++
 
 My research focuses on non-contact physiological signal measurement using remote photoplethysmography (rPPG), including heart rate, heart rate variability, and respiratory rate estimation from video.

@@ -2,6 +2,7 @@
 title = "About"
 date = "2020-01-01"
 aliases = ["about"]
+translationKey = "about"
 +++
 
 ## Hi, I'm Po-Wei Huang

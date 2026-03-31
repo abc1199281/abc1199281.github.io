@@ -1,6 +1,7 @@
 +++
 title = "聯絡"
 date = "2020-01-01"
+translationKey = "contact"
 +++
 
 歡迎透過以下任一管道與我聯繫。
