@@ -72,7 +72,7 @@
             {{ end }}
             {{ if and .github .blog_series }}&ensp;·&ensp;{{ end }}
             {{ if .blog_series }}
-              <a href="{{ $.Site.BaseURL }}series/{{ .blog_series | urlize }}/">Blog Series →</a>
+              <a href="/series/{{ .blog_series | urlize }}/">Blog Series →</a>
             {{ end }}
             {{ if and (or .github .blog_series) .scholar }}&ensp;·&ensp;{{ end }}
             {{ if .scholar }}
