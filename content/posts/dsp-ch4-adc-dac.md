@@ -10,6 +10,8 @@ tags = ["dsp", "matlab", "sampling", "adc", "dac"]
 
 ## Overview
 
+![Simulated DAC process: ADC stage (sampling + quantization) followed by DAC stage (ZOH + reconstruction filter)](/images/posts/dsp-ch4/1.png)
+
 This article explains how to bridge sampling theory with practical MATLAB implementation for analog-to-digital (ADC) and digital-to-analog (DAC) conversion, specifically addressing reconstruction of signals sampled near the Nyquist rate.
 
 ## Key Concepts

@@ -4,6 +4,7 @@ date = "2020-04-19"
 series = ["DSP Learning Path"]
 categories = ["tech"]
 tags = ["dsp", "matlab", "filter", "group-delay", "linear-phase"]
+math = true
 +++
 
 > **DSP_lab code:** [Ch5 — Transform Analysis of LTI Systems](https://github.com/abc1199281/DSP_lab/tree/master/Ch5_TransformAnalysisOfLTISystem)
@@ -20,6 +21,8 @@ General Linear Phase (GLP) means maintaining a **constant group delay**. Group d
 
 $$\tau(\omega) = -\frac{d\phi(\omega)}{d\omega}$$
 
+![Fig 5.3: ARG vs arg — wrapped and unwrapped phase response of an IIR filter](/images/posts/dsp-ch5/3.png)
+
 A linear phase response necessarily produces constant group delay, and vice versa.
 
 ### What Does Group Delay Mean?
@@ -27,6 +30,8 @@ A linear phase response necessarily produces constant group delay, and vice vers
 > "The group delay of a frequency represents the delay (in samples) that a filter applies to that frequency component."
 
 Without constant group delay, a filter introduces different delays for different frequency components — potentially reordering signal components in time. For example, a musical phrase "do re mi" could come out as "re mi do".
+
+![Fig 5.4: Group delay and magnitude response of the IIR low-pass filter](/images/posts/dsp-ch5/4.png)
 
 ## Practical Example
 
@@ -37,6 +42,8 @@ Using an IIR low-pass filter with three input frequency components:
 | A | 0.8π | Filtered out (stop band) |
 | B | 0.4π | ~6.39 sample delay |
 | C | 0.2π | ~153 sample delay |
+
+![Fig 5.4 + 5.6: Group delay annotation and input/output showing frequency-dependent delay](/images/posts/dsp-ch5/7.png)
 
 The 0.2π component arrives significantly later than the 0.4π component — confirming the non-constant group delay of an IIR filter.
 

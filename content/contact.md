@@ -16,9 +16,5 @@ Feel free to reach out through any of the following channels.
 | LinkedIn | [powei-huang-b24061104](https://www.linkedin.com/in/powei-huang-b24061104/) |
 | Google Scholar | [Profile](https://scholar.google.com/citations?user=sklHe5cAAAAJ&hl=en) |
 | DSP Stack Exchange | [po-wei-huang](https://dsp.stackexchange.com/users/41818/po-wei-huang) |
+| Email | abc1199281@gmail.com |
 
----
-
-## Email
-
-<!-- TODO: add preferred contact email -->

@@ -9,7 +9,7 @@ translationKey = "about"
 
 Staff Media Model Engineer at **ARM Limited**, Manchester, UK.
 
-I hold a Ph.D. in Electrical and Control Engineering from National Chiao Tung University (NCTU / NYCU), Taiwan, completed at age 25. My dissertation focused on vision-based vital signs estimation via **remote photoplethysmography (rPPG)** — measuring heart rate and respiratory rate from video using computer vision and signal processing. The proposed algorithm placed **3rd worldwide (1st in Asia)** at the CVPR 2020 Challenge on Remote Physiological Signal Sensing (RePSS), across 129 participants from 36 organisations.
+I hold a Ph.D. in Electrical and Control Engineering from National Chiao Tung University (NCTU / NYCU), Taiwan. My dissertation focused on vision-based vital signs estimation via **remote photoplethysmography (rPPG)** — measuring heart rate and respiratory rate from video using computer vision and signal processing. The proposed algorithm placed **3rd worldwide (1st in Asia)** at the CVPR 2020 Challenge on Remote Physiological Signal Sensing (RePSS), across 129 participants from 36 organisations.
 
 ---
 

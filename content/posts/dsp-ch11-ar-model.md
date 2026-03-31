@@ -4,6 +4,7 @@ date = "2019-04-27"
 series = ["DSP Learning Path"]
 categories = ["tech"]
 tags = ["dsp", "matlab", "ar-model", "spectral-analysis", "parametric"]
+math = true
 +++
 
 > **DSP_lab code:** [Ch11 — Parametric Signal Modeling](https://github.com/abc1199281/DSP_lab/tree/master/Ch11_ParametricSignalModeling/Advanced_SpectrumAnalysis)
@@ -68,6 +69,8 @@ xlabel('Normalized frequency (\times\pi rad/sample)');
 ylabel('One-sided PSD (dB/rad/sample)');
 legend('Periodogram', 'AR (autocorrelation)', 'AR (covariance)');
 ```
+
+![Periodogram vs AR spectrum — only the covariance method resolves the two closely-spaced sinusoids](/images/posts/dsp-ch11/1.png)
 
 ## Key Takeaway
 

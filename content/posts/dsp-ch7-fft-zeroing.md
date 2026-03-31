@@ -18,11 +18,15 @@ The answer lies in the **windowing effect**.
 
 When you zero out FFT bins to create an ideal bandpass filter, you are implicitly applying a **rectangular window** to the impulse response. At first glance — using a standard FFT size matching the impulse response length — the frequency response looks ideal (Figure 1). Clean passbands, sharp cutoff.
 
+![Figure 1: Misleading frequency response — looks ideal at standard FFT resolution](/images/posts/dsp-ch7/1.png)
+
 This observation is **misleading**.
 
 ## The Revelation: Gibbs Phenomenon
 
 By using **zero-padding** to increase DFT resolution, the hidden problem emerges: ripples in the frequency domain known as the **Gibbs phenomenon** (Figure 2).
+
+![Figure 2: Gibbs phenomenon revealed by zero-padding — the true frequency response](/images/posts/dsp-ch7/2.png)
 
 These oscillations occur because:
 - The DFT samples the true DTFT at discrete frequencies

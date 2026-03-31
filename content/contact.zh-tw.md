@@ -16,9 +16,4 @@ translationKey = "contact"
 | LinkedIn | [powei-huang-b24061104](https://www.linkedin.com/in/powei-huang-b24061104/) |
 | Google Scholar | [個人頁面](https://scholar.google.com/citations?user=sklHe5cAAAAJ&hl=en) |
 | DSP Stack Exchange | [po-wei-huang](https://dsp.stackexchange.com/users/41818/po-wei-huang) |
-
----
-
-## Email
-
-<!-- TODO: 請填入偏好的聯絡信箱 -->
+| Email | abc1199281@gmail.com |

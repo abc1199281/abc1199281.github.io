@@ -11,6 +11,8 @@ As someone still finding my footing in Manchester, I chose the simplest answer: 
 
 ## People's History Museum
 
+![People's History Museum exterior, Manchester](/images/posts/manchester/architecture.jpg)
+
 My first stop was the People's History Museum. The exterior is understated, easy to walk past. But inside, the building opens into something unexpectedly moving: a three-story wall display tracing a timeline of labour history, punctuated by the message:
 
 > "There have always been ideas worth fighting for."
@@ -26,6 +28,10 @@ I left with a quieter kind of hope.
 Afterwards, I wandered toward the canals as the light started to change. Manchester at dusk has a particular quality — the water catches the last colours of the sky, and the city slows just slightly.
 
 I stood at the water's edge as the sun went down. One of those unremarkable moments that somehow stays with you.
+
+![Manchester canals at sunset](/images/posts/manchester/canal3.jpg)
+
+![Manchester canals at dusk](/images/posts/manchester/canal4.jpg)
 
 ---
 
