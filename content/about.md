@@ -55,7 +55,7 @@ I hold a Ph.D. in Electrical and Control Engineering from National Chiao Tung Un
 - **3rd Place** (1st in Asia) — 1st CVPR Challenge on RePSS 2020 (129 participants, 36 organisations)
 - **2nd Place** — Biomedical Hackathon
 - **Honorable Mention** — Golden Silicon Awards
-- 技術應用文章/論文徵選 佳作
+- **Merit Award** — Technical Article & Paper Competition (技術應用文章/論文徵選)
 
 ---
 
