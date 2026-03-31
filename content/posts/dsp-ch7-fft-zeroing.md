@@ -6,7 +6,7 @@ categories = ["tech"]
 tags = ["dsp", "matlab", "fft", "filter-design", "windowing", "gibbs"]
 +++
 
-> **DSP_lab code:** [Ch7 — Filter Design Techniques](https://github.com/abc1199281/DSP_lab/tree/master/Ch7)
+> **DSP_lab code:** [Ch7 — Filter Design Techniques](https://github.com/abc1199281/DSP_lab/tree/master/Ch7_FilterDesignTechniques)
 
 ## The Question
 

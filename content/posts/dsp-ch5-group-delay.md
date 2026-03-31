@@ -6,7 +6,7 @@ categories = ["tech"]
 tags = ["dsp", "matlab", "filter", "group-delay", "linear-phase"]
 +++
 
-> **DSP_lab code:** [Ch5 — Transform Analysis of LTI Systems](https://github.com/abc1199281/DSP_lab/tree/master/Ch5)
+> **DSP_lab code:** [Ch5 — Transform Analysis of LTI Systems](https://github.com/abc1199281/DSP_lab/tree/master/Ch5_TransformAnalysisOfLTISystem)
 
 ## Overview
 

@@ -6,7 +6,7 @@ categories = ["tech"]
 tags = ["dsp", "matlab", "sampling", "adc", "dac"]
 +++
 
-> **DSP_lab code:** [Ch4 — Sampling of Continuous Signals](https://github.com/abc1199281/DSP_lab/tree/master/Ch4)
+> **DSP_lab code:** [Ch4 — Sampling of Continuous Signals](https://github.com/abc1199281/DSP_lab/tree/master/Ch4_SamplingOfContinuousSignal)
 
 ## Overview
 
