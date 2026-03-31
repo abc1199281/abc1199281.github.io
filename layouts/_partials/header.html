@@ -19,21 +19,21 @@
           {{ end }}
         {{ end }}
         {{ if hugo.IsMultilingual }}
-          {{ $node := . }}
-          {{ .Scratch.Set "separator" true }}
-          {{ range (default .Site.Home.AllTranslations .Translations) }}
-            {{ if ne $.Site.Language .Language }}
-              {{ if $node.Scratch.Get "separator" }}
-                <li class="navigation-item menu-separator">
-                  <span>|</span>
-                </li>
-                {{ $node.Scratch.Set "separator" false }}
-              {{ end }}
-              <li class="navigation-item">
-                <a href="{{ .RelPermalink }}">{{ .Language.LanguageName | emojify }}</a>
-              </li>
-            {{ end }}
-          {{ end }}
+          <li class="navigation-item menu-separator">
+            <span>|</span>
+          </li>
+          <li class="navigation-item">
+            <details class="language-dropdown">
+              <summary class="navigation-link">{{ .Site.Language.LanguageName | emojify }}</summary>
+              <ul class="language-dropdown-menu">
+                {{ range (default .Site.Home.AllTranslations .Translations) }}
+                  {{ if ne $.Site.Language .Language }}
+                    <li><a class="navigation-link" href="{{ .RelPermalink }}">{{ .Language.LanguageName | emojify }}</a></li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </details>
+          </li>
         {{ end }}
       </ul>
     {{ end }}

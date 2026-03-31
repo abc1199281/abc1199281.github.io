@@ -33,6 +33,7 @@ avatarURL   = "images/avatar.jpg"
 colorScheme = "auto"
 since       = 2020
 dateFormat  = "January 2, 2006"
+customSCSS  = ["scss/language-dropdown.scss"]
 
 [[params.social]]
 name   = "GitHub"
